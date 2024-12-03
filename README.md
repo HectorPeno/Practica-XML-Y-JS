@@ -1,34 +1,19 @@
-Proyecto XML y JavaScript
-Descripción
-Este proyecto tiene como objetivo mostrar cómo se puede trabajar con XML utilizando JavaScript. Incluye ejemplos de cómo leer, manipular y mostrar datos XML en una página web.
+# Proyecto de Películas con XML y JavaScript
 
-Contenido
-index.html: Página principal del proyecto.
-styles.css: Archivo de estilos CSS.
-script.js: Archivo JavaScript con funciones para manipular XML.
-data.xml: Archivo XML con datos de ejemplo.
+Este proyecto es una aplicación web simple que muestra una colección de películas utilizando archivos XML para almacenar los datos de las películas, archivos JavaScript para interactuar con los datos y HTML/CSS para presentar la información de manera atractiva en una página web.
 
-Instalación
-Clona este repositorio:
- git clone https://github.com/tu-usuario/proyecto-xml-js.git
- 
-Abre el archivo index.html en tu navegador preferido.
+## Estructura del Proyecto
 
-Uso
-Asegúrate de que todos los archivos estén en el mismo directorio.
-Abre index.html en tu navegador.
-Los datos del archivo data.xml se mostrarán en la página y podrás interactuar con ellos.
+La estructura del proyecto es la siguiente:
 
-Ejemplos de Código
-Leer XML con JavaScript
-```javascript
-// Ejemplo de cómo leer un archivo XML
-const xhr = new XMLHttpRequest();
-xhr.open("GET", "data.xml", true);
-xhr.onreadystatechange = function() {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-        const xml = xhr.responseXML;
-        // Procesar el archivo XML aquí
-    }
-};
-xhr.send();
+```plaintext
+Proyecto-Peliculas/
+├── css/
+│   └── style.css       # Archivo CSS para los estilos
+├── img/
+│   └── FxF10.jpg      # Carpeta para almacenar imágenes de las películas
+│   └── venom.jpg      # Carpeta para almacenar imágenes de las películas
+├── js/
+│   └── app.js        # Archivo JavaScript para la lógica
+├── pelis.xml           # Archivo XML con los datos de las películas
+└── index.html           # Archivo HTML principal
