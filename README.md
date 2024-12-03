@@ -1,7 +1,34 @@
-# Proyecto de XML y JavaScript
+Proyecto XML y JavaScript
+Descripción
+Este proyecto tiene como objetivo mostrar cómo se puede trabajar con XML utilizando JavaScript. Incluye ejemplos de cómo leer, manipular y mostrar datos XML en una página web.
 
-Este proyecto muestra cómo trabajar con ficheros XML y JavaScript para crear una aplicación web dinámica. Incluye estructura básica de carpetas y ejemplos prácticos de integración.
+Contenido
+index.html: Página principal del proyecto.
+styles.css: Archivo de estilos CSS.
+script.js: Archivo JavaScript con funciones para manipular XML.
+data.xml: Archivo XML con datos de ejemplo.
 
-## Estructura del proyecto
+Instalación
+Clona este repositorio:
+ git clone https://github.com/tu-usuario/proyecto-xml-js.git
+ 
+Abre el archivo index.html en tu navegador preferido.
 
-📦 proyecto-xml-js ├── 📂 css # Contiene los estilos CSS │ └── styles.css ├── 📂 img # Contiene las imágenes usadas en el proyecto │ ├── ejemplo1.png │ └── ejemplo2.png ├── 📂 js # Contiene los scripts JavaScript │ └── script.js ├── index.html # Archivo HTML principal ├── data.xml # Archivo XML de ejemplo └── README.md # Documentación del proyecto
+Uso
+Asegúrate de que todos los archivos estén en el mismo directorio.
+Abre index.html en tu navegador.
+Los datos del archivo data.xml se mostrarán en la página y podrás interactuar con ellos.
+
+Ejemplos de Código
+Leer XML con JavaScript
+```javascript
+// Ejemplo de cómo leer un archivo XML
+const xhr = new XMLHttpRequest();
+xhr.open("GET", "data.xml", true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        const xml = xhr.responseXML;
+        // Procesar el archivo XML aquí
+    }
+};
+xhr.send();
