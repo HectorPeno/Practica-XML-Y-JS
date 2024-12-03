@@ -1,0 +1,21 @@
+<movies>
+    <movie>
+        <title>Fast and Furious X</title>
+        <director>Louis Leterrier</director>
+        <duration>141 min</duration>
+        <nationality>España</nationality>
+        <actors>Vin Diesel, Jason Momoa</actors>
+        <genre>Accion</genre>
+        <synopsis>Con una sangrienta sed de venganza, un terrible peligro surge del pasado, dispuesto a destruir para siempre todo lo que a Dom le importa. Ahora él y los suyos son el objetivo de Dante (Jason Momoa), el rey brasileño de la droga que ha jurado vengarse y destruir a Toretto y a su familia. Pero, para este final del camino, llegará la caballería, además de armas, coches, coches con cañones, y muchas sorpresas, Dom contará con los fieles Letty Ortiz (Michelle Rodriguez), Tej (Ludacris), Ramsey (Nathalie Emmanuel), Jakob (John Cena), además de Deckard Shaw (Jason Statham).</synopsis>
+        <image>img/01.jpg</image>
+    </movie>
+    <movie>
+        <title>Venom</title>
+        <director>Ruben Fleischer</director>
+        <duration>109 min</duration>
+        <nationality>España</nationality>
+        <actors>Tom Hardy, Jenny Slate</actors>
+        <genre>Accion</genre>
+        <synopsis>Eddie Brock (Tom Hardy) es un consolidado periodista y astuto reportero que está investigando una empresa llamada Fundación Vida. Esta fundación, dirigida por el eminente científico Carlton Drake (Riz Ahmed), está ejecutando secretamente experimentos ilegales en seres humanos y realizando pruebas que involucran formas de vida extraterrestres y amorfas conocidas como simbiontes. Durante una visita furtiva a la central, el periodista quedará infectado por un simbionte. Comenzará entonces a experimentar cambios en su cuerpo que no entiende, y escuchará una voz interior, la del simbionte Venom, que le dirá lo que tiene que hacer. Cuando Brock adquiera los poderes del simbionte que le usa como huésped, Venom tomará posesión de su cuerpo, convirtiéndole en un despiadado y peligroso súpervillano.</synopsis>
+        <image>img/venom.jpg</image>
+    </movie></movies>
